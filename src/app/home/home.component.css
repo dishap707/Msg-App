@@ -1,0 +1,23 @@
+.log{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	color: white;
+}
+
+.uname {
+	margin-right: 55px;
+		
+}
+
+.data{
+	
+	padding: 5px 5px 5px 5px;
+}
+
+.logi{
+	color: black;
+	padding: 10px 20px 10px 10px;
+	text-align : Center;
+	margin-left: 20px;
+}

@@ -1,0 +1,76 @@
+#zero{
+	margin-left: 10px;
+}
+#blk{
+	float: left;
+	width: 400px;
+	height: 400px;
+	background-color:white;
+	border-style: solid;
+	margin-left: 10px;
+}
+#first{
+	
+	width: 900px;
+	height: 400px;
+	margin-left: 10px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+    border-color: black;
+    border-style: solid;
+	background-color: white;
+	overflow: scroll;
+	float: center;
+}
+#second{
+	
+	width:289px;
+	margin-left: 10px;
+	border-radius: 5px;
+	height: 40px;
+	border-color: black;
+	border-style: solid;
+	
+}
+#sub{
+	
+    margin-left: 5px;
+	width: 70px;
+	padding-right: 25px;
+	height: 45px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+#msg{
+
+ background-color: #c2d6d6;
+ border-radius: 5px;
+ overflow: scroll;
+ 
+}
+#mee{
+	background-color: #eff5f5;
+	list-style-type: none;
+	
+}
+#toptitle{
+    background-color: light- grey;
+	margin-left: 5px;
+}
+
+#compmsg
+{
+	width : 250px;
+	height : 25px;
+	margin-left: 2px;
+	overflow:Scroll;
+}
+
+#sentmsg{
+    width: 1325px;
+	overflow: scroll;
+	background-color: white;
+	margin-left: 5px;
+	height: 200px;
+}

@@ -1,0 +1,35 @@
+
+<div id= "blk">
+   <p id= "zero"><strong>Compose</strong> </p> 
+   <hr>
+   <p id = "toptitle" > Recipient: <br><input type= "text" [(ngModel)]= "papimsg.receiver"></p>
+   <p id = "toptitle" > Title:<br> <input type ="text" [(ngModel)] = "papimsg.title"> </p>
+   <p id= "toptitle"> Message: <br>
+   <input id= "compmsg" type = "text" [(ngModel)] = "papimsg.body" placeholder="Type your message here.."> </p>
+   <button id= "sub" type= "button" (click) = "disp()" > Send </button>
+   
+</div>
+
+
+<div id= "first">
+   <p id= "zero"> <strong> Inbox </strong> </p>
+   <hr>
+   <ul id= "mee">
+   <li  *ngFor = "let me of rmsg ; let i = index"> Title: {{me.title}} <br>
+   Sender: {{me.sender}}<br> Message: {{me.body}} 
+   <button (click)= "removemsg(i)"> Delete </button>
+   <hr>
+   </li>
+   </ul>
+</div>
+
+<div id= "sentmsg">
+   <p id= "zero"> <strong> Sent Message </strong> </p>
+   <hr>
+   <ul id= "mee">
+   <li *ngFor = "let p of pmsg; let j = index"> {{p}} 
+   <button type= "button" (click) ="delmsg(j)">Delete </button>
+   <hr>
+   </li>
+   </ul>
+</div>
